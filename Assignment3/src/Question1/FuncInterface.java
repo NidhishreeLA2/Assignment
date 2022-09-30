@@ -9,7 +9,7 @@ interface FuncInterface {
 
 class Test{
 	public static void main(String args[]) {
-		int z = 10;
+		int z = 5;
 		
 		FuncInterface f = (int a) -> a*a;
 		
