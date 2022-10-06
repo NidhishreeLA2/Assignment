@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Arrayque {
 	public static void main(String args[]) {
-		boolean b = true;
+		
 		ArrayList<String> s1 = new ArrayList<String>();
 		s1.add("b");
 		s1.add("a");
@@ -39,9 +39,11 @@ public class Arrayque {
 		for (String s:s1) {
 			for (String ss:s2) {
 				if (s == ss) {
+					
 					System.out.println("index of repeated letter in s1 is " + s1.indexOf(s));
 					System.out.println("index of repeated letter in s2 is " + s2.indexOf(s));
 					}}}
+		
 		for (String s:s1) {
 			for (String ss2:s3) {
 				if (s == ss2) {

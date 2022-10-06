@@ -4,7 +4,8 @@ import java.util.Set;
 
 
 public class setque {
-	public static void main(String args[]) {
+	public int check() {
+	
 		Set<Integer> se = new HashSet<Integer>();
 		se.add(1);
 		se.add(2);
@@ -36,11 +37,15 @@ public class setque {
 			last = s;
 		}
 		System.out.println(last);
-		
-		
-		
-		
-		
-	}
-
+		return last;
+		}
 }
+		
+		
+			
+			
+		
+		
+	
+
+
